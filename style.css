@@ -3,19 +3,20 @@ body {
     color: hsl(0, 0%, 100%);
     font-size: 15px;
     font-family: 'Lexend Deca', sans-serif;
+    margin: 20vh auto;
 }
 
 .container {
-    max-width: 1220px;
+    max-width: 1015px;
     min-width: 320px;
     background-color: hsl(244, 38%, 16%);
-    border-radius: 15px;
+    border-radius: 8px;
 }
 
 .container img {
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    mix-blend-mode: exclusion;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    mix-blend-mode: color-dodge;
 }
 
 span.insights {
@@ -23,7 +24,8 @@ span.insights {
 }
 
 p.mainDesc {
-    color: hsla(0, 0%, 100%, 0.6)
+    color: hsla(0, 0%, 100%, 0.6);
+    line-height: 1.7rem;
 }
 
 .mainHeading, .mainStats {
@@ -32,8 +34,8 @@ p.mainDesc {
 
 @media (max-width: 991px) {
      .container img {
-        border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
         border-bottom-right-radius: 0px !important;
     }
     .container {
@@ -42,4 +44,4 @@ p.mainDesc {
 }
 
 .attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: hsl(277, 64%, 61%); }
